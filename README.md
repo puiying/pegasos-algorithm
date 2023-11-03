@@ -1,7 +1,12 @@
-# pegasos-algorithm
-Implement Pegasos algorithm and evaluate its performance on MNIST-13 dataset
+# stochastic-gradient-descent
+Implement stochastic gradient descent with Pegasos algorithm and softplus function. Then, evaluate its performance on MNIST-13 dataset
 
 ## Code Overview
+### sgd.py
+### SoftPlus.ipynb
+### Pegasos.ipynb
+
+## Pegasos Algorithm Overview
 The Pegasos algorithm is implemented in the following process:
 1. Extract feature X and label y from data file.
 2. Standardized feature X and augment feature X by 1 to account for the bias term.
